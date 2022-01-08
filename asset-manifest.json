@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/nitinkumaar20/Textutiles.git/static/css/main.05691a97.chunk.css",
+    "main.js": "/nitinkumaar20/Textutiles.git/static/js/main.957ca5b4.chunk.js",
+    "main.js.map": "/nitinkumaar20/Textutiles.git/static/js/main.957ca5b4.chunk.js.map",
+    "runtime-main.js": "/nitinkumaar20/Textutiles.git/static/js/runtime-main.3edcfe60.js",
+    "runtime-main.js.map": "/nitinkumaar20/Textutiles.git/static/js/runtime-main.3edcfe60.js.map",
+    "static/js/2.9311925f.chunk.js": "/nitinkumaar20/Textutiles.git/static/js/2.9311925f.chunk.js",
+    "static/js/2.9311925f.chunk.js.map": "/nitinkumaar20/Textutiles.git/static/js/2.9311925f.chunk.js.map",
+    "static/js/3.c7192f60.chunk.js": "/nitinkumaar20/Textutiles.git/static/js/3.c7192f60.chunk.js",
+    "static/js/3.c7192f60.chunk.js.map": "/nitinkumaar20/Textutiles.git/static/js/3.c7192f60.chunk.js.map",
+    "index.html": "/nitinkumaar20/Textutiles.git/index.html",
+    "static/css/main.05691a97.chunk.css.map": "/nitinkumaar20/Textutiles.git/static/css/main.05691a97.chunk.css.map",
+    "static/js/2.9311925f.chunk.js.LICENSE.txt": "/nitinkumaar20/Textutiles.git/static/js/2.9311925f.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3edcfe60.js",
+    "static/js/2.9311925f.chunk.js",
+    "static/css/main.05691a97.chunk.css",
+    "static/js/main.957ca5b4.chunk.js"
+  ]
+}
