@@ -37,11 +37,13 @@ export default function Navbar(props) {
         <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
         <button className="btn btn-outline-success" type="submit">Search</button>
       </form> */}
-      <div className="bg-danger rounded mx-2"style={{height:'30px', width:'30px', cursor:'pointer'}} onClick={()=>props.pallet('danger')}></div>
+      <div className="d-flex .flex-sm-row ">
+      <div className="bg-danger rounded mx-2 my-2 "style={{height:'30px', width:'30px', cursor:'pointer'}} onClick={()=>props.pallet('danger')}></div>
       {/* <div className=" rounded mx-2"style={{height:'30px', width:'30px', cursor:'pointer',backgroundColor:'#70aeca'}} onClick={()=>props.pallet('#70aeca')}></div> */}
-      <div className="bg-info rounded mx-2"style={{height:'30px', width:'30px', cursor:'pointer'}} onClick={()=>props.pallet('info')}></div>
-      <div className="bg-warning rounded mx-2"style={{height:'30px', width:'30px', cursor:'pointer'}} onClick={()=>props.pallet('warning')}></div>
-      <div className="bg-success rounded mx-2"style={{height:'30px', width:'30px', cursor:'pointer'}} onClick={()=>props.pallet('success')}></div>
+      <div className="bg-info rounded mx-2 my-2 .flex-sm-row"style={{height:'30px', width:'30px', cursor:'pointer'}} onClick={()=>props.pallet('info')}></div>
+      <div className="bg-warning rounded mx-2 my-2"style={{height:'30px', width:'30px', cursor:'pointer'}} onClick={()=>props.pallet('warning')}></div>
+      <div className="bg-success rounded mx-2 my-2"style={{height:'30px', width:'30px', cursor:'pointer'}} onClick={()=>props.pallet('success')}></div>
+      </div>
       <div className="form-check form-switch transition" >
         <input className="form-check-input" style={{transition: '.4s'}} onClick={props.toggle} type="checkbox" role="switch" id="flexSwitchCheckDefault"/>
         <label className={`form-check-label text-${props.mode==='light'?'dark':'light'}`} htmlFor="flexSwitchCheckDefault">{props.mode==='light'?'Enable Dark mode':'Enable Light mode'}</label>

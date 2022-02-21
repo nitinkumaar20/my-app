@@ -72,7 +72,7 @@ function App() {
       // setchtext('Enable Dark Mode')
       showalert(" light mode enable", "success");
       document.title= 'TextUtiles';
-      setmystyle({color:"black",backgroundColor:"#212529"});
+      setmystyle({color:"black",backgroundColor:"white"});
     }
 
 
