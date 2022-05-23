@@ -81,7 +81,7 @@ function App() {
   return (
   <>
  <Router>
-    <Navbar sitname="Textutles" about="about" mode={mode} toggle={toggle} pallet={pallet}/>
+    <Navbar sitname="Text-Editor" about="about" mode={mode} toggle={toggle} pallet={pallet}/>
     <Alert alert={alert}/>
       <Switch>
           <Route path="/about">

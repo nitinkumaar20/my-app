@@ -1,18 +1,16 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { Link } from 'react-router-dom'
+// import { useSelector } from 'react-redux'
 
 
 
 export default function Navbar(props) {
+  // const theValue = useSelector((state)=>{ return state.changeNum});
  
-  
     return (
-     
-     
-        
- <>
-          <nav  className={`navbar navbar-expand-lg navbar-${props.mode} bg-${props.mode}`}>
+<>
+<nav  className={`navbar navbar-expand-lg navbar-${props.mode} bg-${props.mode}`}>
   <div className="container-fluid ">
     {/* <a className="navbar-brand" href ="#">{props.sitname}</a> */}
     <Link className="navbar-brand" to ="/">{props.sitname}</Link>
@@ -51,7 +49,11 @@ export default function Navbar(props) {
       </div>
     </div>
   </div>
+  {/* <div className="container">
+  <input type="text" value = {theValue} className="btn btn-info"/>
+  </div> */}
 </nav>
+
  </>
 
     )

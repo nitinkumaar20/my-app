@@ -1,11 +1,15 @@
 import React from "react";
-
+import { useDispatch,useSelector } from "react-redux";
+import {incrNum,decNum} from '../action/index'
 
 
 
 
 export default function About(props) {
+  const dispatch = useDispatch();
+  const theValue = useSelector((state)=>{ return state.changeNum});
   return (
+    <>
     <div className ="container" >
       <div class="accordion" id="accordionExample">
         <div class="accordion-item ">
@@ -110,5 +114,16 @@ export default function About(props) {
         </div>
       </div>
     </div>
+  <div className="container">
+  <button type="button" className="btn btn-info mx-2" onClick={()=>{return dispatch(incrNum())}}>Increament</button>
+  <input type="text" value = {theValue} className="btn btn-info bg-light"/>
+
+  <button type="button" className="btn btn-info mx-2" onClick={()=>{ return dispatch(decNum())}}>Decrement</button>
+  
+    </div>
+    </>
   );
+
 }
+
+

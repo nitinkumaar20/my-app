@@ -27,13 +27,17 @@ export default function TextFrom(props) {
         navigator.clipboard.writeText(text.value);
         props.showalert("copy to clipboard","success");
     }
-    const [text, setText]=useState("enter the text");
+    
+    const [text, setText]=useState("Enter the text");
+    const removeSampletext =()=>{
+        setText('');
+    }
     return (
     <>
     <div className="container" style={{color: props.mode==="dark"?"white":"black"}}>
-        <h1>{props.heading}</h1>
-        <div className="mb-3">
-            <textarea className={`form-control text-${props.mode==='light'?'dark':'light'} bg-${props.mode} `} id="exampleFormControlTextarea1" value={text} onChange={textchnage} rows="10"></textarea>
+        <h1 >{props.heading}</h1>
+        <div className="mb-3 py-4">
+            <textarea  onClick={removeSampletext} className={` form-control text-${props.mode==='light'?'secondary' :'light'} bg-${props.mode} `} id="exampleFormControlTextarea1" value={text} onChange={textchnage} rows="10" ></textarea>
         </div>
             <button type="submit" disabled={text.length===0} className="btn btn-primary mx-1 my-1" style={{backgroundColor: props.mode==="dark"?"grey":"",}} onClick={converttoup}>convert to upparcase</button>
             <button type="submit" disabled={text.length===0}className="btn btn-primary mx-1 my-1"style={{backgroundColor: props.mode==="dark"?"grey":""}} onClick={converttolow}>convert to lowercase</button>
