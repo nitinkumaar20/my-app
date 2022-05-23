@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/nitinkumaar20/Text-editor2/static/css/main.e991deb4.chunk.css",
-    "main.js": "/nitinkumaar20/Text-editor2/static/js/main.141f1c0f.chunk.js",
-    "main.js.map": "/nitinkumaar20/Text-editor2/static/js/main.141f1c0f.chunk.js.map",
-    "runtime-main.js": "/nitinkumaar20/Text-editor2/static/js/runtime-main.b2be2b21.js",
-    "runtime-main.js.map": "/nitinkumaar20/Text-editor2/static/js/runtime-main.b2be2b21.js.map",
-    "static/js/2.1bb89202.chunk.js": "/nitinkumaar20/Text-editor2/static/js/2.1bb89202.chunk.js",
-    "static/js/2.1bb89202.chunk.js.map": "/nitinkumaar20/Text-editor2/static/js/2.1bb89202.chunk.js.map",
-    "static/js/3.caa801e1.chunk.js": "/nitinkumaar20/Text-editor2/static/js/3.caa801e1.chunk.js",
-    "static/js/3.caa801e1.chunk.js.map": "/nitinkumaar20/Text-editor2/static/js/3.caa801e1.chunk.js.map",
-    "index.html": "/nitinkumaar20/Text-editor2/index.html",
-    "static/css/main.e991deb4.chunk.css.map": "/nitinkumaar20/Text-editor2/static/css/main.e991deb4.chunk.css.map",
-    "static/js/2.1bb89202.chunk.js.LICENSE.txt": "/nitinkumaar20/Text-editor2/static/js/2.1bb89202.chunk.js.LICENSE.txt"
+    "main.css": "/nitinkumaar20/Text-editor2.git/static/css/main.e991deb4.chunk.css",
+    "main.js": "/nitinkumaar20/Text-editor2.git/static/js/main.141f1c0f.chunk.js",
+    "main.js.map": "/nitinkumaar20/Text-editor2.git/static/js/main.141f1c0f.chunk.js.map",
+    "runtime-main.js": "/nitinkumaar20/Text-editor2.git/static/js/runtime-main.e6923937.js",
+    "runtime-main.js.map": "/nitinkumaar20/Text-editor2.git/static/js/runtime-main.e6923937.js.map",
+    "static/js/2.1bb89202.chunk.js": "/nitinkumaar20/Text-editor2.git/static/js/2.1bb89202.chunk.js",
+    "static/js/2.1bb89202.chunk.js.map": "/nitinkumaar20/Text-editor2.git/static/js/2.1bb89202.chunk.js.map",
+    "static/js/3.caa801e1.chunk.js": "/nitinkumaar20/Text-editor2.git/static/js/3.caa801e1.chunk.js",
+    "static/js/3.caa801e1.chunk.js.map": "/nitinkumaar20/Text-editor2.git/static/js/3.caa801e1.chunk.js.map",
+    "index.html": "/nitinkumaar20/Text-editor2.git/index.html",
+    "static/css/main.e991deb4.chunk.css.map": "/nitinkumaar20/Text-editor2.git/static/css/main.e991deb4.chunk.css.map",
+    "static/js/2.1bb89202.chunk.js.LICENSE.txt": "/nitinkumaar20/Text-editor2.git/static/js/2.1bb89202.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.b2be2b21.js",
+    "static/js/runtime-main.e6923937.js",
     "static/js/2.1bb89202.chunk.js",
     "static/css/main.e991deb4.chunk.css",
     "static/js/main.141f1c0f.chunk.js"
