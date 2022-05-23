@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/nitinkumaar20/Text-Editor/static/css/main.adddff64.chunk.css",
-    "main.js": "/nitinkumaar20/Text-Editor/static/js/main.511fe05d.chunk.js",
-    "main.js.map": "/nitinkumaar20/Text-Editor/static/js/main.511fe05d.chunk.js.map",
-    "runtime-main.js": "/nitinkumaar20/Text-Editor/static/js/runtime-main.db8d87ae.js",
-    "runtime-main.js.map": "/nitinkumaar20/Text-Editor/static/js/runtime-main.db8d87ae.js.map",
-    "static/js/2.688e01f0.chunk.js": "/nitinkumaar20/Text-Editor/static/js/2.688e01f0.chunk.js",
-    "static/js/2.688e01f0.chunk.js.map": "/nitinkumaar20/Text-Editor/static/js/2.688e01f0.chunk.js.map",
-    "static/js/3.caa801e1.chunk.js": "/nitinkumaar20/Text-Editor/static/js/3.caa801e1.chunk.js",
-    "static/js/3.caa801e1.chunk.js.map": "/nitinkumaar20/Text-Editor/static/js/3.caa801e1.chunk.js.map",
-    "index.html": "/nitinkumaar20/Text-Editor/index.html",
-    "static/css/main.adddff64.chunk.css.map": "/nitinkumaar20/Text-Editor/static/css/main.adddff64.chunk.css.map",
-    "static/js/2.688e01f0.chunk.js.LICENSE.txt": "/nitinkumaar20/Text-Editor/static/js/2.688e01f0.chunk.js.LICENSE.txt"
+    "main.css": "/nitinkumaar20/my-app/static/css/main.e991deb4.chunk.css",
+    "main.js": "/nitinkumaar20/my-app/static/js/main.511fe05d.chunk.js",
+    "main.js.map": "/nitinkumaar20/my-app/static/js/main.511fe05d.chunk.js.map",
+    "runtime-main.js": "/nitinkumaar20/my-app/static/js/runtime-main.bbcc9f26.js",
+    "runtime-main.js.map": "/nitinkumaar20/my-app/static/js/runtime-main.bbcc9f26.js.map",
+    "static/js/2.688e01f0.chunk.js": "/nitinkumaar20/my-app/static/js/2.688e01f0.chunk.js",
+    "static/js/2.688e01f0.chunk.js.map": "/nitinkumaar20/my-app/static/js/2.688e01f0.chunk.js.map",
+    "static/js/3.caa801e1.chunk.js": "/nitinkumaar20/my-app/static/js/3.caa801e1.chunk.js",
+    "static/js/3.caa801e1.chunk.js.map": "/nitinkumaar20/my-app/static/js/3.caa801e1.chunk.js.map",
+    "index.html": "/nitinkumaar20/my-app/index.html",
+    "static/css/main.e991deb4.chunk.css.map": "/nitinkumaar20/my-app/static/css/main.e991deb4.chunk.css.map",
+    "static/js/2.688e01f0.chunk.js.LICENSE.txt": "/nitinkumaar20/my-app/static/js/2.688e01f0.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.db8d87ae.js",
+    "static/js/runtime-main.bbcc9f26.js",
     "static/js/2.688e01f0.chunk.js",
-    "static/css/main.adddff64.chunk.css",
+    "static/css/main.e991deb4.chunk.css",
     "static/js/main.511fe05d.chunk.js"
   ]
 }
